@@ -35,10 +35,10 @@ Pod::Spec.new do |s|
     LICENSE
   }
 
-  s.homepage         = "https:https://cuvo.ai"
+  s.homepage         = "https://cuvo.ai"
   s.author           = { 'Arul' => 'arulmurugan800@gmail.com' }
   s.platform         = :ios, '11.0'
-  s.source           = { :http =>  "https://github.com/Arulmurugan-Sivapoosam/cuvo/blob/main/CuvoAgent.xcframework.zip"}
+  s.source           = { :http =>  "https://github.com/Arulmurugan-Sivapoosam/cuvo/raw/main/CuvoAgent.xcframework.zip"}
   
   s.pod_target_xcconfig = {
     'PRODUCT_BUNDLE_IDENTIFIER': 'com.cuvo.CuvoAgent'
